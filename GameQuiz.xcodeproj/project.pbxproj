@@ -13,6 +13,8 @@
 		D34700B029190C30003CE360 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D34700AE29190C30003CE360 /* Main.storyboard */; };
 		D34700B229190C31003CE360 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D34700B129190C31003CE360 /* Assets.xcassets */; };
 		D34700B529190C31003CE360 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D34700B329190C31003CE360 /* LaunchScreen.storyboard */; };
+		D34700BD29190DB0003CE360 /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D34700BC29190DB0003CE360 /* QuizViewController.swift */; };
+		D34700BF29190E46003CE360 /* ScoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D34700BE29190E46003CE360 /* ScoreViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		D34700B129190C31003CE360 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D34700B429190C31003CE360 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D34700B629190C31003CE360 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D34700BC29190DB0003CE360 /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
+		D34700BE29190E46003CE360 /* ScoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				D34700AA29190C30003CE360 /* SceneDelegate.swift */,
 				D34700AC29190C30003CE360 /* ViewController.swift */,
 				D34700AE29190C30003CE360 /* Main.storyboard */,
+				D34700BE29190E46003CE360 /* ScoreViewController.swift */,
+				D34700BC29190DB0003CE360 /* QuizViewController.swift */,
 				D34700B129190C31003CE360 /* Assets.xcassets */,
 				D34700B329190C31003CE360 /* LaunchScreen.storyboard */,
 				D34700B629190C31003CE360 /* Info.plist */,
@@ -140,7 +146,9 @@
 			files = (
 				D34700AD29190C30003CE360 /* ViewController.swift in Sources */,
 				D34700A929190C30003CE360 /* AppDelegate.swift in Sources */,
+				D34700BF29190E46003CE360 /* ScoreViewController.swift in Sources */,
 				D34700AB29190C30003CE360 /* SceneDelegate.swift in Sources */,
+				D34700BD29190DB0003CE360 /* QuizViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
