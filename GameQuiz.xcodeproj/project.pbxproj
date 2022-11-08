@@ -16,6 +16,8 @@
 		D34700BD29190DB0003CE360 /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D34700BC29190DB0003CE360 /* QuizViewController.swift */; };
 		D34700BF29190E46003CE360 /* ScoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D34700BE29190E46003CE360 /* ScoreViewController.swift */; };
 		D34700C129191255003CE360 /* quiz.csv in Resources */ = {isa = PBXBuildFile; fileRef = D34700C029191255003CE360 /* quiz.csv */; };
+		D34700C52919E327003CE360 /* correct.png in Resources */ = {isa = PBXBuildFile; fileRef = D34700C32919E327003CE360 /* correct.png */; };
+		D34700C62919E327003CE360 /* incorrect.png in Resources */ = {isa = PBXBuildFile; fileRef = D34700C42919E327003CE360 /* incorrect.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		D34700BC29190DB0003CE360 /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
 		D34700BE29190E46003CE360 /* ScoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreViewController.swift; sourceTree = "<group>"; };
 		D34700C029191255003CE360 /* quiz.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = quiz.csv; sourceTree = "<group>"; };
+		D34700C32919E327003CE360 /* correct.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = correct.png; sourceTree = "<group>"; };
+		D34700C42919E327003CE360 /* incorrect.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = incorrect.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,11 +73,21 @@
 				D34700AE29190C30003CE360 /* Main.storyboard */,
 				D34700BE29190E46003CE360 /* ScoreViewController.swift */,
 				D34700BC29190DB0003CE360 /* QuizViewController.swift */,
+				D34700C22919E327003CE360 /* image */,
 				D34700B129190C31003CE360 /* Assets.xcassets */,
 				D34700B329190C31003CE360 /* LaunchScreen.storyboard */,
 				D34700B629190C31003CE360 /* Info.plist */,
 			);
 			path = GameQuiz;
+			sourceTree = "<group>";
+		};
+		D34700C22919E327003CE360 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				D34700C32919E327003CE360 /* correct.png */,
+				D34700C42919E327003CE360 /* incorrect.png */,
+			);
+			path = image;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -134,6 +148,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D34700C52919E327003CE360 /* correct.png in Resources */,
+				D34700C62919E327003CE360 /* incorrect.png in Resources */,
 				D34700B529190C31003CE360 /* LaunchScreen.storyboard in Resources */,
 				D34700B229190C31003CE360 /* Assets.xcassets in Resources */,
 				D34700B029190C30003CE360 /* Main.storyboard in Resources */,
